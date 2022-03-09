@@ -6,8 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tailwindcss-practise</title>
+
+    <link rel="stylesheet" href="output.css" />
 </head>
 
-<body></body>
+<body>
+    <div class="container bg-green-400 mx-auto">
+        <!-- <div class="flex gap-8 flex-wrap">
+                <div class="flex-initial font-sans bg-indigo-600 w-40 h-40 text-center text-gray-200 text-xl">
+                    Flex 1
+                </div>
+                <div class="flex-initial font-sans bg-indigo-600 w-40 h-40 text-center text-gray-200 text-xl">
+                    Flex 2
+                </div>
+                <div class="flex-initial font-sans bg-indigo-600 w-40 h-40 text-center text-gray-200 text-xl">
+                    Flex 3
+                </div>
+            </div> -->
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3">
+            <div class="font-sans bg-yellow-300 w-full h-40 text-center text-xl">
+                Grid Col 1
+            </div>
+            <div class="font-sans bg-green-300 w-full h-40 text-center text-xl">
+                Grid Col 2
+            </div>
+            <div class="font-sans bg-red-300 w-full h-40 text-center text-xl">
+                Grid Col 3
+            </div>
+        </div>
+    </div>
+</body>
 
 </html>

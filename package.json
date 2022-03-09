@@ -24,7 +24,8 @@
         "url": "https://github.com/hrathnapala/tailwind-css-practise/issues"
     },
     "homepage": "https://github.com/hrathnapala/tailwind-css-practise#readme",
-    "dependencies": {
+    "dependencies": {},
+    "devDependencies": {
         "tailwindcss": "^3.0.23"
     }
 }
