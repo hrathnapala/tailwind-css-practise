@@ -1,0 +1,30 @@
+{
+    "name": "tailwind-css-practise",
+    "version": "1.0.0",
+    "description": "to learn about tailwind css framework",
+    "main": "index.js",
+    "scripts": {
+        "build": "tailwindcss -i src/styles.css -o public/output.css -w"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hrathnapala/tailwind-css-practise.git"
+    },
+    "keywords": [
+        "tailwind",
+        "css",
+        "tailwind",
+        "framework",
+        "node",
+        "npm"
+    ],
+    "author": "Heshan Rathnapala",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/hrathnapala/tailwind-css-practise/issues"
+    },
+    "homepage": "https://github.com/hrathnapala/tailwind-css-practise#readme",
+    "dependencies": {
+        "tailwindcss": "^3.0.23"
+    }
+}
